@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Sansation:300,300italic,regular,italic,700,700italic");
+
+:root{
+/* color */
+--grey: #6B6B6B;
+--black: #000000;
+--black-grey: #1F1F1F;
+--milk-white: #F3F3F3;
+--light-white: #FAFAFA;
+--white: #FFFFFF;
+--pink: #FF7795;
+--purple-gradient: linear-gradient(135deg, #6E56FF, #B073FF);
+--pink-gradient: linear-gradient(135deg, #FF56BB, #FF8F77);
+--green-gradient: linear-gradient(135deg, #56C2FF, #48FE9C);
+/* shadow */
+--shadow: 0 4.57px 54.85px rgba(197, 197, 197, 25%);
+/* texts */
+ --header-big: 600 40px/40;
+ --subheader: 400 24px/42.5;
+ --large-title: 600 32px/40;
+ --title-1: 600 30px/38;
+ --title-2: 500 26px/34;
+ --title-3: 400 18px/26;
+ --title-4: 600 18px/26;
+ --headline: 600 15px/23;
+ --body: 400 15px/23;
+ --caption-1: 600 14px/22;
+ --caption-2: 400 13px/16;
+ --caption-3: 600 12px/16;
+ --accent-font: Sansation;
+}
+html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font: var(--body);
+    font-family: 'DM Sans';
+}
+body{
+    font-family: 'DM Sans';
+    font: var(--body);
+}
+h1, h2,h3,h4,h5,h6,a,button, p,span,input{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(--black);
+    border: none;
+    outline: none;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
