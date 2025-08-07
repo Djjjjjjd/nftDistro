@@ -38,6 +38,7 @@ html{
     font-family: 'DM Sans';
 }
 body{
+    background: var(--light-white);
     font-family: 'DM Sans';
     font: var(--body);
 }
@@ -49,9 +50,18 @@ h1, h2,h3,h4,h5,h6,a,button, p,span,input{
     color: var(--black);
     border: none;
     outline: none;
+    transition: all 0.2s ease-out;
 }
-
+a:hover{
+    font-weight: 600;
+}
 .container{
-    max-width: 1300px;
+    width: 1600px;
     margin: 0 auto;
 }
+@media screen and (max-width: 1440px){
+.container{
+    width: 1300px;
+}
+}
+
