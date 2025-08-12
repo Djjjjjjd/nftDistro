@@ -59,6 +59,9 @@ a:hover{
     width: 1600px;
     margin: 0 auto;
 }
+.wrapper{
+    padding: 4em 0em 4em;
+}
 @media screen and (max-width: 1440px){
 .container{
     width: 1300px;

@@ -1,0 +1,50 @@
+.card{
+  width: 300px;
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: 11px;
+}
+.cardContainer{
+  padding: 13px 11px 20px;
+}
+.cardImage{
+  width: 100%;
+}
+.cardImage img{
+  width: 100%;
+  border-radius: 6px;
+}
+.cardTitle h5{
+  font-weight: 600;
+  field-sizing: 18px;
+  padding: 12px 0px 20px;
+}
+.cardDesc{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardDescAvatar{
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.cardDescAvatar p{
+  font-weight: 600;
+  font-size: 15px;
+}
+.cardDescAvatar img{
+  max-width: 40px;
+  border-radius: 100%;
+}
+.cardDescEfirium{
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  align-items: center;
+}
+.cardDescEfirium p{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}

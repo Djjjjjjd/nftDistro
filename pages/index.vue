@@ -29,7 +29,30 @@
           <h2>Trending Art<i><img src="/public/icon/fire.png" alt=""></i></h2>
           <a href="">discover more</a>
         </div>
-        <div class="trendingArtCrards"></div>
+        <div class="trendingArtCards">
+          <div class="trendingCardWrapper">
+            <NuxtLink to="/index.vue">
+              <TrendingCrad></TrendingCrad>
+            </NuxtLink>
+            <NuxtLink to="/index.vue">
+              <TrendingCrad></TrendingCrad>
+            </NuxtLink>
+            <NuxtLink to="/index.vue">
+              <TrendingCrad></TrendingCrad>
+            </NuxtLink>
+            <NuxtLink to="/index.vue">
+              <TrendingCrad></TrendingCrad>
+            </NuxtLink>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <section class="featuredCollections">
+      <div class="container wrapper">
+        <h2>Featured Collections</h2>
+        <div class="featuredCollectionsItems">
+          <FeaturedCollectionsItems></FeaturedCollectionsItems>
+        </div>
       </div>
     </section>
 </template>
@@ -117,18 +140,32 @@
   /* Trending Art */
   .trendingArt{
     height: 100vh;
-    color: var(--white);
+    background-color: var(--white);
   }
   .trendingArtTitle{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4em 0 0;
+    padding: 4em 0px 4em;
   }
   .trendingArtTitle h2{
     font-size: 3em;
   }
   .trendingArtTitle a{
     text-transform: capitalize;
+  }
+  .trendingArtCards{
+    width: 1600px;
+    margin: 0 auto;
+  }
+  .trendingCardWrapper{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 300px 300px 300px 300px;
+  }
+  /* Feauters Cllections */
+  .featuredCollections{
+    background-color: var(--white);
+    height: 100vh;
   }
 </style>
